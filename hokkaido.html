@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hokkaido</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets and Bootstrap CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/hokkaido.css" />
+
+    <!-- Bootstrap Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+    <!-- First Introduction Page -->
+
+    <section id="cover">
+        <div class="image">
+            <img class="adjustments" src="images/hokkaido.jpg" alt="The Beauty of Hokkaido" />
+            <div id="cover-text">
+                <div class="text">Hokkaido</div>
+                <div class="subtext">Japan’s wild north island, <br>a nature-lover’s paradise with world-class skiing
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Navbar -->
+
+    <section id="navbar">
+        <nav class="navbar navbar-custom sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo-image" src="images/logo.png" width="30" height="30" class="d-inline-block align-top"
+                    alt="Logo" />
+                Japan Unvieled
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\home.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="C:\Users\spand\OneDrive\Desktop\Project1\destinations.html"><b>Destinations</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <b>Regions</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\hokkaido.html">Hokkaido</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\tohoku.html">Tohoku</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\kanto.html">Kanto</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\chubu.html">Chubu</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\kansai.html">Kansai</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\chugoku.html">Chugoku</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\shikoku.html">Shikoku</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\kyushu.html">Kyushu</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\okinawa.html">Okinawa</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><b>Articles</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\aboutme.html"><b>About
+                                Me</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\contactme.html"><b>Contact
+                                Me</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- Footer -->
+
+    <section id="about">
+        <div class="description">
+            <p class="body" style="text-indent: 25px;">
+                <font size="+5">Hokkaido</font> is Japan's second largest island and comprises the largest and
+                northernmost prefecture, making
+                up its own region. The Tsugaru Strait separates Hokkaidō from Honshu; the two islands are connected
+                by the undersea railway Seikan Tunnel.<br> <br>
+                The largest city on Hokkaidō is its capital, Sapporo, which is also its only ordinance-designated city.
+                Sakhalin lies about 43 kilometers (26 mi) to the north of Hokkaidō, and to the east and northeast are
+                the Kuril Islands, which are administered by Russia, though the four most southerly are claimed by
+                Japan. Hokkaidō was formerly known as Ezo, Yezo, Yeso, or Yesso.<br><br>
+                Its weather is harsh in winter with lots of snowfall, below zero temperatures and frozen seas, while in
+                summer it does not get as hot and humid as in the other parts of the country.
+                With its unspoiled nature, many national parks and rural landscapes, Hokkaido attracts many outdoor
+                lovers, including skiers and snowboarders in the colder seasons and hikers, cyclists and campers from
+                June to September.
+            </p>
+        </div>
+        <img class="map" src="images/hokkaido-map.gif" alt="Hokkaido map">
+    </section>
+
+    <section id="places">
+        <div class="destinations">
+            <h1>Top destinations in Hokkaido</h1>
+            <section id="features">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="  feature-box col-lg-3">
+                            <img class="feature-img" src="images/sapporo.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Sapporo</h3>
+                            </a>
+                            <p>The largest city on the island of Hokkaido.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/otaru.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Otaru</h3>
+                            </a>
+                            <p>Harbor city near Sapporo with a canal.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/hadokate.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Hakodate</h3>
+                            </a>
+                            <p>Southernmost city on Hokkaido.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/furano.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Furano</h3>
+                            </a>
+                            <p>Town with beautiful lavender and flower fields.</p>
+                        </div>
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/asahikawa.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Asahikawa</h3>
+                            </a>
+                            <p>City in central Hokkaido famous for its zoo.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/noboribetsu.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Noboribetsu</h3>
+                            </a>
+                            <p>Hokkaido's most famous hot spring resort.</p>
+                        </div>
+
+                        <div class=" feature feature-box col-lg-3">
+                            <img class="feature-img" src="images/abashiri.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Abashiri</h3>
+                            </a>
+                            <p>Known for its prison and drift ice in winter.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/niseko.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Niseko</h3>
+                            </a>
+                            <p>Leading snow resort with lots of powder snow.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/kushiro.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Kushiro</h3>
+                            </a>
+                            <p>City in eastern Hokkaido near a large marshland</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/jozaneki-onsen.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Jozankei Onsen</h3>
+                            </a>
+                            <p>Hot spring resort in the mountains outside central
+                                Sapporo.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/rusutsu.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Rusutsu</h3>
+                            </a>
+                            <p>Attractive ski resort near Niseko.</p>
+                        </div>
+
+                        <div class=" feature feature-box col-lg-3">
+                            <img class="feature-img" src="images/tomamu.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Tomamu</h3>
+                            </a>
+                            <p>Large ski resort in central Hokkaido.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/matsumae.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Matsumae</h3>
+                            </a>
+                            <p>The only former castle town on Hokkaido.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/kiroro.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Kiroro Ski Resort</h3>
+                            </a>
+                            <p>Ski resort between Sapporo and Niseko.</p>
+                        </div>
+
+
+
+                    </div>
+            </section>
+        </div>
+
+        <div class="destinations">
+            <h1>National Parks</h1>
+            <section id="features">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="  feature-box col-lg-3">
+                            <img class="feature-img" src="images/akan.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Akan Mashu National Park</h3>
+                            </a>
+                            <p>National park with beautiful lakes.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/lake-toya.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Lake Toya</h3>
+                            </a>
+                            <p>Site of Mount Usu, an active volcano.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/daisetsuzan.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Daisetsuzan</h3>
+                            </a>
+                            <p>Hokkaido's largest and wildest national park.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/shiretoko.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Shiretoko</h3>
+                            </a>
+                            <p>National park on an unspoiled peninsula.</p>
+                        </div>
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/kushiro-marsh.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Kushiro Marshlands</h3>
+                            </a>
+                            <p>Marshlands populated by Japanese cranes.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/lake-shikotsu.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Lake Shikotsu</h3>
+                            </a>
+                            <p>Picturesque caldera lake near Sapporo.</p>
+                        </div>
+
+                        <div class=" feature feature-box col-lg-3">
+                            <img class="feature-img" src="images/onuma-park.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Onuma Park</h3>
+                            </a>
+                            <p>National park 20 kilometers north of Hakodate.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/rishiri.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Rishiri and Rebun</h3>
+                            </a>
+                            <p>Small islands near Hokkaido's northern tip.</p>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\home.html">Home</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\aboutme.html">About Me</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\contactme.html">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Destinations</h4>
+                    <ul>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\hokkaido.html">Hokkaido</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\tohoku.html">Tohoku</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\kanto.html">Kanto</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\chubu.html">Chubu</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\kansai.html">Kansai</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\chugoku.html">Chugoku</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\shikoku.html">Shikoku</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\kyushu.html">Kyushu</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\okinawa.html">Okinawa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><img class="footer-image" src="images/logo.png" alt="" />
+                            <h3 class="name">Japan Unvieled</h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="copyright">
+                    <h6>Copyright © Spandan Mozumder | All Rights Reserved</h6>
+                    <h6>Disclosure and Privacy Policy</h6>
+                </div>
+    </footer>
+
+</html>

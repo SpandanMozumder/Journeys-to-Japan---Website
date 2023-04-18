@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Chugoku</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets and Bootstrap CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/chugoku.css" />
+
+    <!-- Bootstrap Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+    <!-- First Introduction Page -->
+
+    <section id="cover">
+        <div class="image">
+            <img class="adjustments" src="images/chugoku.jpg" alt="The Beauty of Kanto" />
+            <div id="cover-text">
+                <div class="text">Chugoku</div>
+                <div class="subtext">Home to Hiroshima, Japan’s oldest shrine <br>and gateway to the Seto Inland Sea
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Navbar -->
+
+    <section id="navbar">
+        <nav class="navbar navbar-custom sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo-image" src="images/logo.png" width="30" height="30" class="d-inline-block align-top"
+                    alt="Logo" />
+                Japan Unvieled
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\home.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="C:\Users\spand\OneDrive\Desktop\Project1\destinations.html"><b>Destinations</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <b>Regions</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\hokkaido.html">Hokkaido</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\tohoku.html">Tohoku</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\kanto.html">Kanto</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\chubu.html">Chubu</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\kansai.html">Kansai</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\chugoku.html">Chugoku</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\shikoku.html">Shikoku</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\kyushu.html">Kyushu</a>
+                            <a class="dropdown-item"
+                                href="C:\Users\spand\OneDrive\Desktop\Project1\okinawa.html">Okinawa</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><b>Articles</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\aboutme.html"><b>About
+                                Me</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\contactme.html"><b>Contact
+                                Me</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
+
+    <section id="about">
+        <div class="description">
+            <p class="body" style="text-indent: 25px;">
+                <font size="+5">Chugoku</font> region makes up the western part of Japan's main island Honshu. It is
+                commonly subdivided into the heavily urbanized and industrialized Sanyo Region along the Seto Inland Sea
+                coast and the much more rural Sanin Region along the Sea of Japan coast.
+            </p>
+        </div>
+        <img class="map" src="images/chugoku-map.gif" alt="Kanto map">
+    </section>
+
+    <section id="places">
+        <div class="destinations">
+            <h1>Top destinations in Chugoku</h1>
+
+            <h2 class="subheading"
+                style="font-family: Cormorant-bold, serif; padding-left: 5%; text-decoration: underline">Okayama
+                Prefecture</h2>
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class=" feature-box col-lg-3">
+                        <img class="feature-img" src="images/okayama.jpg">
+                        <a href="#" style="color: black;">
+                            <h3 class="feature-title">Okayama</h3>
+                        </a>
+                        <p>Famous for one of Japan's three best gardens.</p>
+                    </div>
+
+                    <div class=" feature-box col-lg-3">
+                        <img class="feature-img" src="images/kurashiki.jpg">
+                        <a href="#" style="color: black;">
+                            <h3 class="feature-title">Kurashiki</h3>
+                        </a>
+                        <p>City with a picturesque, historic canal area.</p>
+                    </div>
+
+                    <div class=" feature-box col-lg-3">
+                        <img class="feature-img" src="images/bichu.jpg">
+                        <a href="#" style="color: black;">
+                            <h3 class="feature-title">Bitchu-Takahashi</h3>
+                        </a>
+                        <p> Pretty town with original mountaintop castle.</p>
+                    </div>
+                    <div class=" feature-box col-lg-3">
+                        <img class="feature-img" src="images/inujima.jpg">
+                        <a href="#" style="color: black;">
+                            <h3 class="feature-title">Inujima Island</h3>
+                        </a>
+                        <p>Small island turned into a modern art site.</p>
+                    </div>
+                </div>
+                <h2 class="subheading"
+                    style="font-family: Cormorant-bold, serif; padding-left: 5%; text-decoration: underline">Hiroshima
+                    Prefecture</h2>
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/hiroshima.webp">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Hiroshima</h3>
+                            </a>
+                            <p>Regional capital with a tragic history.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/miyajima.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Miyajima</h3>
+                            </a>
+                            <p>Island known for its shrine and large torii gate.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/onomichi.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Onomichi</h3>
+                            </a>
+                            <p>Port town with many slopes and temples.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/fukuyama.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Fukuyama</h3>
+                            </a>
+                            <p>Second largest city in Hiroshima Prefecture.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/tomonoura.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Tomonoura</h3>
+                            </a>
+                            <p> Picturesque, old-fashioned fishing town. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="subheading"
+                    style="font-family: Cormorant-bold, serif; padding-left: 5%; text-decoration: underline">
+                    Yamaguchi Prefecture </h2>
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/yamaguchi.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Yamaguchi</h3>
+                            </a>
+                            <p>Pleasant city at the western end of Honshu.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/iwakuni.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Iwakuni</h3>
+                            </a>
+                            <p>Site of the picturesque Kintai-kyo Bridge.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/hagi.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Hagi</h3>
+                            </a>
+                            <p>Castle town with preserved samurai district.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/akiyoshidai.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Akiyoshidai</h3>
+                            </a>
+                            <p>Karst plateau with large limestone cave.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/shimonoseki.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Shimonoseki</h3>
+                            </a>
+                            <p>City at the westernmost tip of Honshu.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/motonosumi.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Motonosumi Shrine</h3>
+                            </a>
+                            <p>Remote shrine along the coast with tunnel of torii gates</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="subheading"
+                    style="font-family: Cormorant-bold, serif; padding-left: 5%; text-decoration: underline">
+                    Tottori Prefecture</h2>
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/tottori.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Tottori </h3>
+                            </a>
+                            <p>Prefectural capital known for its sand dunes.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/daisen.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Mount Daisen</h3>
+                            </a>
+                            <p>Tallest mountain in the Chugoku Region.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="subheading"
+                    style="font-family: Cormorant-bold, serif; padding-left: 5%; text-decoration: underline;">Shimane
+                    Prefecture
+                </h2>
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/matsue.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Matsue</h3>
+                            </a>
+                            <p>Former castle town near Izumo Taisha.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/izumo.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Izumo</h3>
+                            </a>
+                            <p>Site of Izumo Taisha, Japan's oldest shrine.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/iwami.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Iwami Ginzan</h3>
+                            </a>
+                            <p>Former silver mine with world heritage status.</p>
+                        </div>
+
+                        <div class=" feature-box col-lg-3">
+                            <img class="feature-img" src="images/tsuwano.jpg">
+                            <a href="#" style="color: black;">
+                                <h3 class="feature-title">Tsuwano</h3>
+                            </a>
+                            <p>Rural town with nice samurai district.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\home.html">Home</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\aboutme.html">About Me</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\contactme.html">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Destinations</h4>
+                    <ul>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\hokkaido.html">Hokkaido</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\tohoku.html">Tohoku</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\kanto.html">Kanto</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\chubu.html">Chubu</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\kansai.html">Kansai</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\chugoku.html">Chugoku</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\shikoku.html">Shikoku</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\kyushu.html">Kyushu</a></li>
+                        <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\okinawa.html">Okinawa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><img class="footer-image" src="images/logo.png" alt="" />
+                            <h3 class="name">Japan Unvieled</h3>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="copyright">
+                    <h6>Copyright © Spandan Mozumder | All Rights Reserved</h6>
+                    <h6>Disclosure and Privacy Policy</h6>
+                </div>
+    </footer>
+
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Japan Unvieled</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets and Bootstrap CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <!-- Font Awesome -->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+    <!-- First Introduction Page -->
+
+    <section id="cover">
+        <div class="image">
+            <img class="adjustments" src="images/cover.jpg" alt="The Beauty of Japan" />
+            <div id="cover-text">
+                <div class="text">Beyond the Guidebook</div>
+                <div class="subtext">Discovering the Authentic Japan Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Navbar -->
+
+    <section id="navbar">
+        <nav class="navbar navbar-custom sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo-image" src="images/logo.png" width="30" height="30" class="d-inline-block align-top"
+                    alt="Logo" />
+                Japan Unvieled
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\home.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="C:\Users\spand\OneDrive\Desktop\Project1\destinations.html"><b>Destinations</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <b>Regions</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Hokkaido</a>
+                            <a class="dropdown-item" href="#">Tohoku</a>
+                            <a class="dropdown-item" href="#">Kanto</a>
+                            <a class="dropdown-item" href="#">Chubu</a>
+                            <a class="dropdown-item" href="#">Kansai</a>
+                            <a class="dropdown-item" href="#">Chugoku</a>
+                            <a class="dropdown-item" href="#">Shikoku</a>
+                            <a class="dropdown-item" href="#">Kyushu</a>
+                            <a class="dropdown-item" href="#">Okinawa</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><b>Articles</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\aboutme.html"><b>About
+                                Me</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\spand\OneDrive\Desktop\Project1\contactme.html"><b>Contact
+                                Me</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+<!-- Footer -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\home.html">Home</a></li>
+                    <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\aboutme.html">About Me</a></li>
+                    <li><a href="C:\Users\spand\OneDrive\Desktop\Project1\contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="#">Hokkaido</a></li>
+                    <li><a href="#">Tohoku</a></li>
+                    <li><a href="#">Kanto</a></li>
+                    <li><a href="#">Chubu</a></li>
+                    <li><a href="#">Kansai</a></li>
+                    <li><a href="#">Chugoku</a></li>
+                    <li><a href="#">Shikoku</a></li>
+                    <li><a href="#">Kyushu</a></li>
+                    <li><a href="#">Okinawa</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Me</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><img class="footer-image" src="images/logo.png" alt="" />
+                        <h3 class="name">Japan Unvieled</h3>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <h6>Copyright © Spandan Mozumder | All Rights Reserved</h6>
+                <h6>Disclosure and Privacy Policy</h6>
+            </div>
+</footer>
+
+</html>
+
+/* First Introduction Page */
+
+.adjustments {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#cover-text {
+    font-family: "Cormorant-bold", serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    font-size: 4rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.subtext {
+    position: absolute;
+    top: 50%;
+    font-size: 4rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+/* The Navbar */
+
+.navbar-custom,
+.dropdown-menu {
+    background-color: #f7c8e0;
+    position: fixed;
+    width: 100%;
+}
+.nav-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+.navbar-brand {
+    font-family: "Forum", cursive;
+    font-size: 23px;
+}
+
+/* Introduction */
+
+.introduction {
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 5%;
+    background-color: #fdebed;
+}
+
+.h1 {
+    font-family: "Cormorant-bold", serif;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.body1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    line-height: 2;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.img {
+    position: absolute;
+    opacity: 0.2;
+    margin-top: -33%;
+    margin-left: 15%;
+}
+
+/* Footer */
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 100px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4 ::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: reba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+.footer-image {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-family: "Forum", cursive;
+    color: #fff;
+    padding-left: 17px;
+    margin-top: 10px;
+}
+
+/* Responsive */
+
+@media (maxwidth: 767px) {
+    .footer-col {
+        margin: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (maxwidth: 574px) {
+    .footer-col {
+        margin: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+h6 {
+    font-family: "Cormorant-bold", serif;
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding-top: 10px;
+}

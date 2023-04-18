@@ -1,0 +1,264 @@
+/* First Introduction Page */
+
+.adjustments {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#cover-text {
+    font-family: "Cormorant-bold", serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    font-size: 4rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.subtext {
+    position: absolute;
+    top: 55%;
+    font-size: 3rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+/* The Navbar */
+
+.navbar-custom,
+.dropdown-menu {
+    background-color: #f7c8e0;
+    position: fixed;
+    width: 100%;
+}
+.nav-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+.navbar-brand {
+    font-family: "Forum", cursive;
+    font-size: 23px;
+}
+
+/* Introduction */
+
+.introduction {
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 5%;
+    background-color: #fdebed;
+}
+
+.h1 {
+    font-family: "Cormorant-bold", serif;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/* About */
+
+.body {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    line-height: 2;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+#about {
+    background-color: #ffe5ca;
+}
+
+.description {
+    padding: 3% 15%;
+}
+
+.map {
+    height: 80%;
+    width: 80%;
+    padding-bottom: 15%;
+    padding-left: 20%;
+}
+
+/* Destinations */
+
+#places {
+    background-color: #f3e8ff;
+}
+
+.destinations {
+    padding: 7% 15%;
+}
+
+.destinations h1 {
+    font-family: "Cormorant-bold", serif;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.feature-img {
+    width: 230px;
+    height: 200px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+.feature-box {
+    background-color: #fff;
+    margin: 42px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    border: 2px solid #73ad21;
+}
+
+/* Footer */
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 100px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4 ::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: reba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+.footer-image {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-family: "Forum", cursive;
+    color: #fff;
+    padding-left: 17px;
+    margin-top: 10px;
+}
+
+/* Responsive */
+
+@media (maxwidth: 767px) {
+    .footer-col {
+        margin: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (maxwidth: 574px) {
+    .footer-col {
+        margin: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+h6 {
+    font-family: "Cormorant-bold", serif;
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding-top: 10px;
+}

@@ -1,0 +1,274 @@
+/* Cover */
+
+.adjustments {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+#cover-text {
+    font-family: "Cormorant-bold", serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    font-size: 5rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+/* The Navbar */
+
+.navbar-custom,
+.dropdown-menu {
+    background-color: #f7c8e0;
+    position: fixed;
+    width: 100%;
+}
+.nav-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+.navbar-brand {
+    font-family: "Forum", cursive;
+    font-size: 23px;
+}
+
+/* Regions */
+
+#regions {
+    background-color: #e4d0d0;
+    padding-bottom: 5%;
+}
+
+.map {
+    height: 50%;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+}
+
+.prefect {
+    width: 40%;
+    height: 40%;
+    margin-left: 50%;
+}
+
+.notes {
+    width: 50%;
+    margin-top: -55%;
+    padding-left: 5%;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    line-height: 2;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.region-list {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    line-height: 2;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.heading {
+    font-family: "Cormorant-bold", serif;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.index {
+    margin-left: 55%;
+    margin-right: 2%;
+    position: absolute;
+    margin-top: -680%;
+    font-family: "Cormorant", serif;
+    background-color: #ddffbb;
+    padding: 1%;
+}
+
+.index h4 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.index p {
+    font-size: 1.2rem;
+}
+
+/* Places to visit */
+
+#destinations {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    background-color: #f3e8ff;
+}
+
+#destinations a {
+    color: #000;
+}
+
+.region-name {
+    font-family: "Cormorant-bold", serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.places {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+
+/* Footer */
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 100px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4 ::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: reba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+.footer-image {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-family: "Forum", cursive;
+    color: #fff;
+    padding-left: 17px;
+    margin-top: 10px;
+}
+
+/* Responsive */
+
+@media (maxwidth: 767px) {
+    .footer-col {
+        margin: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (maxwidth: 574px) {
+    .footer-col {
+        margin: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+h6 {
+    font-family: "Cormorant-bold", serif;
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding-top: 10px;
+}
