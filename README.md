@@ -1,2 +1,1 @@
-# Journeys-to-Japan---Website
-# Journeys-to-Japan---Website
+My first website. Used HTML, CSS, and Bootstrap.
