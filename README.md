@@ -1,1 +1,3 @@
-My first website. Used HTML, CSS, and Bootstrap.
+Japan Travel Website
+Non - Responsive
+HTML, CSS and Bootstrap used
